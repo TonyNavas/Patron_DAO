@@ -28,4 +28,26 @@ public class Fecha {
         mes = hoy.get(Calendar.MONTH) + 1;
         dia = hoy.get(Calendar.DAY_OF_MONTH);
     }
+    @Override
+    public String toString() {
+        return dia + "/" + mes + "/" + año;
+    }
+    public int getAño() {
+        return this.año;
+    }
+    public void setAño(int año) {
+        this.año = año;
+    }
+    public int getDia() {
+        return this.dia;
+    }
+    public void setDia(int dia) {
+        this.dia = dia;
+    }
+    public int getMes() {
+        return this.mes;
+    }
+    public void setMes(int mes) {
+        this.mes = mes;
+    }
 }
