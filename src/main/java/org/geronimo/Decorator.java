@@ -2,7 +2,7 @@ package org.geronimo;
 
 public abstract class Decorator implements Cuenta{
     private Cuenta cuenta;
-    public Decorador(Cuenta cuenta) {
+    public Decorator(Cuenta cuenta) {
         this.cuenta = cuenta;
     }
     public void setCuenta(Cuenta cuenta) {
