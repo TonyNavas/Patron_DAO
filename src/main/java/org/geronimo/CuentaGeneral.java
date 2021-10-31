@@ -9,5 +9,4 @@ public class CuentaGeneral implements Cuenta{
         this.cliente = cliente;
         this.fecApertura = new Fecha();
     }
-    COMPLETAR,
 }
